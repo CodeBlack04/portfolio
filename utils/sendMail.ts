@@ -48,7 +48,7 @@ const sendMail = async ({name, email, organization, message}: Props) => {
         from: SMTP_EMAIL,
         to: 'tauhidur.rahman1517@gmail.com',
         subject: 'Contact from protfolio',
-        html: compileMailTemplate({name, email, organization, message }),
+        html: compileMailTemplate({ name, email, organization, message }),
     });
     console.log(sendResult)
 

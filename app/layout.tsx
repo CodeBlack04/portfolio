@@ -8,7 +8,7 @@ import ContactModal from "@/components/modals/ConatactModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Protfolio",
+  title: "Tauhidur - Protfolio",
   description: "This is my protfolio!",
 };
 
