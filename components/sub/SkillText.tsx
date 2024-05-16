@@ -27,15 +27,6 @@ const SkillText = () => {
         variants={SlideInFromLeft(1)}
         className='text-[30px] text-gray-500 font-medium mt-[10px] text-center mb-[15px]'
         >
-            Making apps with modern technologies
-        
-        </motion.p>
-        
-        <motion.p
-        variants={SlideInFromRight(1)}
-        className='cursive text-[12px] text-gray-500 mb-10 mt-[10px] text-center'
-        >
-
             Never miss a task, deadline or idea
         
         </motion.p>

@@ -31,7 +31,7 @@ const Bio = () => {
 
                 <motion.p
                 variants={SlideInFromRight(0.8)}
-                className={`text-md md:text-lg text-gray-400 mt-5 max-w-[600px] transition ${showFullBio ? 'h-auto' : 'h-36 overflow-hidden'}`}
+                className={`text-md md:text-lg text-gray-400 font-bold mt-5 max-w-[600px] transition ${showFullBio ? 'h-auto' : 'h-36 overflow-hidden'}`}
                 >
                     <>
                         I'm a passionate and results-oriented full-stack developer with a strong foundation in Python and frameworks like Django, Node.js and Next.js. I have experience in crafting robust REST APIs, secure authentication systems, real-time applications (WebSocket) that enhance user experience and more.
