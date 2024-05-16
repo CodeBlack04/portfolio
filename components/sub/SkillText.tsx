@@ -19,13 +19,13 @@ const SkillText = () => {
 
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           
-          <h1 className="Welcome-text text-[20px]">Let's shape your next idea with cutting-edge tools!</h1>
+          <h1 className="Welcome-text text-[16px] md:text-[20px]">Let's shape your next idea with cutting-edge tools!</h1>
         
         </motion.div>
 
         <motion.p
         variants={SlideInFromLeft(1)}
-        className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
+        className='text-[30px] text-gray-500 font-medium mt-[10px] text-center mb-[15px]'
         >
             Making apps with modern technologies
         
@@ -33,7 +33,7 @@ const SkillText = () => {
         
         <motion.p
         variants={SlideInFromRight(1)}
-        className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
+        className='cursive text-[12px] text-gray-500 mb-10 mt-[10px] text-center'
         >
 
             Never miss a task, deadline or idea
