@@ -22,7 +22,7 @@ const HeroContent = () => {
             className='w-full h-full flex justify-center items-center'
             >
                 <Image 
-                className='rounded-full scale-75 lg:scale-100 shadow-lg border border-[#2A0E61]'
+                className='rounded-full scale-75 lg:scale-100'
                 src='/profile-pic1.png'
                 alt= 'work icons'
                 height={500}
