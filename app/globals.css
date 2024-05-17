@@ -61,3 +61,8 @@
 html {
     scroll-behavior: smooth;
   }
+
+.custom-blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

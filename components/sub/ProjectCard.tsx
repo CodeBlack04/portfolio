@@ -21,7 +21,7 @@ const ProjectCard = ({src, title, description, serverLink, githubLink}: Props) =
         className='w-full object-contain'
         />
 
-        <div className='absolute p-3 top-5 right-5 flex flex-row gap-5 rounded-xl text-white bg-transparent backdrop-blur bg-black/40'>
+        <div className='absolute p-3 top-5 right-5 flex flex-row gap-5 rounded-xl text-white bg-black/20 custom-blur'>
           <a target='_blank' href={serverLink} className={`scale-125 transition ${serverLink ? 'hover:scale-150' : 'pointer-events-none text-gray-400'}`}><FaServer /></a>
           <a target='_blank' href={githubLink} className={`scale-125 transition ${githubLink ? 'hover:scale-150' : 'pointer-events-none text-gray-400'}`}><FaGithub /></a>
         </div>
