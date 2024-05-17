@@ -32,7 +32,7 @@ const Modal: React.FC<ModalProps> = ({label, content, isOpen, close}) => {
         <div className="flex items-center justify-center fixed inset-0 z-50 bg-transparent">
             <div className="relative w-[90%] md:w-[80%] lg:w-[700px] my-6 mx-auto h-auto">
                 <div className={`transition duration-600 h-full ${showModal ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-10'}`}>
-                    <div className="w-full h-auto rounded-xl relative flex flex-col backdrop-blur bg-purple-950/30">
+                    <div className="w-full h-auto rounded-xl relative flex flex-col custom-blur bg-purple-950/30">
                         
                         <header className="h-[60px] flex items-center p-6 rounded-t justify-center relative border-b border-purple-700">
                             <div 
