@@ -23,7 +23,7 @@ const Bio = () => {
 
                 <motion.div
                 variants={SlideInFromRight(0.5)}
-                className='flex flex-col gap-6 mt-6 whitespace-nowrap text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white  w-auto h-auto'
+                className='flex flex-col gap-6 mt-2 whitespace-nowrap text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white  w-auto h-auto'
                 >
                     <span>Md. Tauhidur Rahman</span>
                     <span className='text-transparent bg-clip-text text-2xl md:text-5xl bg-gradient-to-r from-purple-500 to-cyan-500'> Fullstack Developer </span>
@@ -31,7 +31,7 @@ const Bio = () => {
 
                 <motion.div
                 variants={SlideInFromRight(0.8)}
-                className={`text-sm sm:text-md md:text-lg text-gray-400 text-center font-bold mt-5 md:px-5 transition h-auto`}
+                className={`text-sm sm:text-md md:text-lg text-gray-400 text-center font-bold mt-3 md:px-5 transition h-auto`}
                 >
                     <div>
                         I'm a passionate and results-oriented full-stack developer with a strong foundation in Python and frameworks like Django, Node.js and Next.js. I have experience in crafting robust REST APIs, secure authentication systems, real-time applications (WebSocket) that enhance user experience and more.

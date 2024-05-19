@@ -12,7 +12,7 @@ const CustomButton = ({label, icon, onClick, className}: CustomButtonProps) => {
     
 
     return (
-        <div onClick={onClick} className={`${className} flex flex-row gap-3 items-center p-5 text-white text-center rounded-full cursor-pointer transition`}>
+        <div onClick={onClick} className={`${className} text-sm sm:text-md md:text-lg flex flex-row gap-4 items-center p-4 text-white text-center rounded-full cursor-pointer transition`}>
             
             {icon && (
                 <div>
