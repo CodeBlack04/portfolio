@@ -19,7 +19,7 @@ const SkillText = () => {
 
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           
-          <h1 className="Welcome-text text-[16px] md:text-[20px]">Let's shape your next idea with cutting-edge tools!</h1>
+          <h1 className="Welcome-text text-sm sm:text-md md:text-lg">Let's shape your next idea with cutting-edge tools!</h1>
         
         </motion.div>
 
