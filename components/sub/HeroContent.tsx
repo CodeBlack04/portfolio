@@ -12,7 +12,7 @@ const HeroContent = () => {
         <motion.div 
         initial='hidden' 
         animate='visible' 
-        className='flex flex-col flex-end lg:flex-row justify-center items-center px-20 mt-20 md:mt-5 lg:mt-40 w-full z-[20]'
+        className='flex flex-col flex-end lg:flex-row justify-center items-center px-5 lg:px-20 mt-20 md:mt-5 lg:mt-40 w-full z-[20]'
         >
             
             <Bio />
