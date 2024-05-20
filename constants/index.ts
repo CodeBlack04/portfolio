@@ -90,7 +90,7 @@ export const Skill_data = [
     {
       name: "LinkedIn",
       src: "/linkedin.png",
-      href: "https://www.linkedin.com/in/md-tauhidur-rahman-38a8b21ab/",
+      href: "https://www.linkedin.com/in/devtauhidurrahman/",
     },
     {
       name: "Facebook",

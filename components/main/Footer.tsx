@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="font-bold text-[20px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxLinkedinLogo />
-                        <span className="text-[15px] ml-[6px]"><a target="_blank" href="https://www.linkedin.com/in/md-tauhidur-rahman-38a8b21ab/">Linkedin</a></span>    
+                        <span className="text-[15px] ml-[6px]"><a target="_blank" href="https://www.linkedin.com/in/devtauhidurrahman/">Linkedin</a></span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaFacebook />
