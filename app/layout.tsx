@@ -8,8 +8,8 @@ import ContactModal from "@/components/modals/ConatactModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tauhidur - Protfolio",
-  description: "This is my protfolio!",
+  title: "Tauhidur - Portfolio",
+  description: "This is my portfolio!",
 };
 
 export default function RootLayout({
